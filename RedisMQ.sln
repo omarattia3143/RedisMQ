@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisMQ", "RedisMQ\RedisMQ.csproj", "{72093BE3-9CA0-4076-9A3E-70868A7367DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber", "Subscriber\Subscriber.csproj", "{0FA9F5E8-248E-457D-BF6D-34CD89FFCCC6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "SharedProject1\SharedProject1.shproj", "{0EE47F9C-E68B-46D2-8928-D5B844196741}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject1\SharedProject1.projitems*{0ee47f9c-e68b-46d2-8928-d5b844196741}*SharedItemsImports = 13
+		SharedProject1\SharedProject1.projitems*{0fa9f5e8-248e-457d-bf6d-34cd89ffccc6}*SharedItemsImports = 5
+		SharedProject1\SharedProject1.projitems*{72093be3-9ca0-4076-9a3e-70868a7367df}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72093BE3-9CA0-4076-9A3E-70868A7367DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72093BE3-9CA0-4076-9A3E-70868A7367DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72093BE3-9CA0-4076-9A3E-70868A7367DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72093BE3-9CA0-4076-9A3E-70868A7367DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA9F5E8-248E-457D-BF6D-34CD89FFCCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA9F5E8-248E-457D-BF6D-34CD89FFCCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA9F5E8-248E-457D-BF6D-34CD89FFCCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA9F5E8-248E-457D-BF6D-34CD89FFCCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {846F6D2D-F1EE-43FB-B15E-E458910CFD59}
+	EndGlobalSection
+EndGlobal
